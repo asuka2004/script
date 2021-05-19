@@ -1,6 +1,8 @@
 #!/bin/bash
+#Author : Kung
+#Function: uptime save
 while [ 1 ]
 do
- uptime >>/root/homework/uptime.log
- usleep 200
+ uptime >>/root/uptime.log
+ usleep 5 
 done
